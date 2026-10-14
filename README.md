@@ -29,3 +29,10 @@ prtool fields
 On a terminal, values are colored unless `NO_COLOR` is set or `TERM=dumb`. `--colors` forces color, including in a pipe, and overrides `NO_COLOR`. `--bold` bolds values only. It does not turn color on, and it still applies when `NO_COLOR` is set.
 
 `--raw` prints the applicable patch even on a terminal. `--stat`, `--name-only`, `--unified`, and `--side-by-side` select a view of the diff.
+
+## License
+
+prtool is free software: you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
+See [LICENSE](LICENSE) (SPDX: GPL-3.0-or-later).
